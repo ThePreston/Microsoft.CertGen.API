@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Microsoft.CertGen": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7100 --pause-on-error",
+      "jsWebView2Debugging": false
+    }
+  }
+}
