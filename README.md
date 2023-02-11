@@ -28,4 +28,4 @@ Uses a Root Certificate that already exists in Key Vault and uses that to create
 ## CreateLeafCertificateWithPrivateKey
 Uses a Root Certificate that already exists in Key Vault and uses that to create a new certificate. This Certificate does have a Private Key and cannot be saved to KeyVault
 
-#### Disclaimer, I am not a Security, Cryptography, Certificate Expert.
+#### Disclaimer, I am not a Security, Cryptography or Certificate Expert.
