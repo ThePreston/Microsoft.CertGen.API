@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "KeyVaultUri": "",
+    "CertFriendlyName": "LeafCert-2023",
+    "RootCertValidYears": "2",
+    "CertificateSubject": "CN=Root Certificate",
+    "CertificateRSA": "2048"
+  }
+}
