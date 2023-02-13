@@ -29,7 +29,7 @@ namespace Microsoft.CertGen.API
             _svc = service;
         }
 
-        [FunctionName("CreateRootCert")]
+        [FunctionName("CreateRootCert2")]
         [OpenApiParameter(name: "CertGenModel", In = ParameterLocation.Query, Required = true, Type = typeof(CertGenModel), Description = "The Certificate information parameter")]
         [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "text/plain", bodyType: typeof(string), Description = "The OK response")]
         public async Task<HttpResponseMessage> CreateRootCert(
