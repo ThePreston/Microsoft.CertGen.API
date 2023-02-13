@@ -14,6 +14,8 @@ Azure Function that Provides Certificate Services
 "LeafCertName":""
 }
 
+![CertificateGenerator](https://user-images.githubusercontent.com/84995595/218500292-a9486e83-ffa6-4c27-a560-171a43d99c06.png)
+
 1) RootCertName - (string) the name of the Root Cert you want to create OR the name of an Existing Root Cert that you want to use to sign Leaf Certificates
 2) SaveRootCertToKeyVault - (bool) determines if the Root Certificate will be saved to keyVault
 3) LeafCertName - (string) the name of the Leaf Certificate that will be created and signed by the Root Cert 
